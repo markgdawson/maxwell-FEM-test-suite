@@ -1,0 +1,8 @@
+file ~/Source/maxwell-nefem/bin/debug/maxwell2D
+b meshSolver3D.f90:206
+r
+p mesh%X
+source ~/Source/maxwell-nefem/python/gdbUtils.py
+python-interactive
+printStructVariablesToFile(['mesh','refSolverHplt'])
+

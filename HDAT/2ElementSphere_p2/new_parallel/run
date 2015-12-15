@@ -1,0 +1,8 @@
+find ./ -name 'resume*'
+rm meshDebugOut*
+(
+cd ./source
+rm -rf bin
+make Parallel3D
+)
+./maxwell-binary

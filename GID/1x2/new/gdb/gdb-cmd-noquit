@@ -1,0 +1,7 @@
+file ~/Source/maxwell-nefem/bin/debug/maxwell2D
+b meshSolver.f90:168
+r
+p mesh%X
+source ~/Source/maxwell-nefem/python/mesh.py
+python-interactive
+readMeshVars('FN')

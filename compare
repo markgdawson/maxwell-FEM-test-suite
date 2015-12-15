@@ -1,0 +1,29 @@
+#!/bin/bash
+echo '1x2 GID'
+
+# Cleanup
+find ./ -name  'meshDebugOut' -delete
+find ./ -name  'outFileLog*' -delete
+
+newBin=~/Source/maxwell-nefem/bin/debug/maxwell2D
+refBin=/home/mark.dawson/Source/rubens-modified-code/maxwell-nefem/bin/maxwell2D
+
+# Run
+for dir in GID/1x2
+do
+    # New binary
+    (
+        cd $dir/new
+        $newBin >/dev/null
+    )
+
+    # ref binary
+    (
+        cd $dir/ref
+        $refBin >/dev/null
+    )
+
+    # Compare binaries
+    echo diff $dir/{ref,new}/meshDebugOut
+    diff $dir/{ref,new}/meshDebugOut
+done
