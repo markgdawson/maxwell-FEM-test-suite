@@ -1,8 +1,0 @@
-find ./ -name 'resume*'
-rm meshDebugOut*
-(
-cd ./source
-rm -rf bin
-make 3D
-)
-./maxwell-binary
