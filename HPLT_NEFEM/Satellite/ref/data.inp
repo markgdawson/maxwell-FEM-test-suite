@@ -10,7 +10,7 @@
  inputData%computeModes = .FALSE.,
  inputData%modeBeta = 0.0D0,
  inputData%timeStepWriteBuffer = 1000
- inputData%nefem = .FALSE.,
+ inputData%nefem = .TRUE.,
 
  inputData%nwlDesired = 10,
  inputData%pOption = 4,
@@ -19,24 +19,24 @@
 
  inputData%initialTime = 0.0D0,
  inputData%tolSteadyState = 1.0D-6,
- inputData%nOfCyclesMax = 0,
+ inputData%nOfCyclesMax = 10,
  inputData%nOfTimeStepsPerCycle = 0,
- inputData%cttTime = 0.01D0,
+ inputData%cttTime = 0.5D0,
  inputData%timeMarching = 1,
  inputData%storedCurved = .TRUE.,
  inputData%useAffineJacobians = .TRUE.,
 
  inputData%snapshotCycle = 0,
- inputData%nOfFramesPerCycle = 100000,
+ inputData%nOfFramesPerCycle = 1,
  inputData%outputAmpPhase = .FALSE.,
 
- inputData%TFSF = .FALSE.,
+ inputData%TFSF = .TRUE.,
  inputData%mode = "TM",
  inputData%lambda = 1.0D0,
  inputData%phi = 0.0D0,
  inputData%theta = 90.0D0,
- inputData%incidentField = 0,
- inputData%rcsComputation = .FALSE.,
+ inputData%incidentField = 1,
+ inputData%rcsComputation = .TRUE.,
  inputData%rcsNOfAngles = 3601,
 
  inputData%eps(1) = 1.0D0,

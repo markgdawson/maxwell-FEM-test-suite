@@ -13,13 +13,13 @@
  inputData%nefem = .TRUE.,
 
  inputData%nwlDesired = 10,
- inputData%pOption = 4,
+ inputData%pOption = 2,
  inputData%optionNodes = 1,
  inputData%orderNodes = 0,
 
  inputData%initialTime = 0.0D0,
  inputData%tolSteadyState = 1.0D-6,
- inputData%nOfCyclesMax = 0,
+ inputData%nOfCyclesMax = 10,
  inputData%nOfTimeStepsPerCycle = 0,
  inputData%cttTime = 0.01D0,
  inputData%timeMarching = 1,
