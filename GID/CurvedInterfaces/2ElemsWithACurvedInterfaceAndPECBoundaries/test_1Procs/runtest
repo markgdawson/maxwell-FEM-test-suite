@@ -1,0 +1,5 @@
+mpiexec -n 2 ~/Source/maxwell-nefem/bin/debug/maxwell2D-parallel
+maxwell_splitSoltnFileGlobalNumbering dat/2ElemCurvedSameMaterialInterfaceMesh_p1_TM 0 >> outFileLog.1
+maxwell_splitSoltnFileGlobalNumbering dat/2ElemCurvedSameMaterialInterfaceMesh_p1_TM 10 >> outFileLog.1
+cat ./dat/2ElemCurvedSameMaterialInterfaceMesh_p1_TM.u.10.split.md5 ./dat/2ElemCurvedSameMaterialInterfaceMesh_p1_TM.u.0.split.md5 > md5s
+

@@ -20,7 +20,7 @@
 
  inputData%initialTime = 0.0D0,
  inputData%tolSteadyState = 1.0D-6,
- inputData%nOfCyclesMax = 1,
+ inputData%nOfCyclesMax = 10,
  inputData%nOfTimeStepsPerCycle = 0,
  inputData%cttTime = 0.4D0,
  inputData%timeMarching = 1,
@@ -29,7 +29,7 @@
 
 
  inputData%snapshotCycle = 0,
- inputData%nOfFramesPerCycle = 10,
+ inputData%nOfFramesPerCycle = 1,
  inputData%outputAmpPhase = .FALSE.,
 
  inputData%TFSF = .FALSE.,
