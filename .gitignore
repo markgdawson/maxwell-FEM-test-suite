@@ -1,0 +1,14 @@
+*.u.[0-9]*
+*.u
+*.faces
+*.mesh
+*.params
+*.res
+*.partition
+*.snapshotTimes
+outFileLog.[0-9]*
+parMetisData.*.txt
+*.cpuTime
+*.elemMap
+md5s
+initCond

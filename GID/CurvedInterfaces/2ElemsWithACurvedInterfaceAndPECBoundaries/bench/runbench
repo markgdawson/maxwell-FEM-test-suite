@@ -1,3 +1,0 @@
-~/Source/rubens-modified-code/maxwell-nefem/bin/debug/maxwell2D > outFileLog.1
-maxwell_splitSoltnFileGlobalNumbering dat/2ElemCurvedSameMaterialInterfaceMesh_p1_TM 0 >> outFileLog.1
-maxwell_splitSoltnFileGlobalNumbering dat/2ElemCurvedSameMaterialInterfaceMesh_p1_TM 10 >> outFileLog.1

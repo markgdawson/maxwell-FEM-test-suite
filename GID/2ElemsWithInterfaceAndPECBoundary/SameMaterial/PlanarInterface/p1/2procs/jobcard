@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -N 22321.2
+#PBS -l nodes=1
+#PBS -l walltime=300:05:00
+#PBS -l mem=1500mb
+#PBS -m bea
+
+sleep 1
+
+# Set Up Environment
+QID=`cat qid`
+
+echo "JOBNAME:"
+echo "STARTED:"`date`
+/home/mark.dawson/Source/maxwell-nefem/bin/release/maxwell2D
+jobs-db-end "$JOBID" "$?"
+echo "FINISHED:"`date`
+
