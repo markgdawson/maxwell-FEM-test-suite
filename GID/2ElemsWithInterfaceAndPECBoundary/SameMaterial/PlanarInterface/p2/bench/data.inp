@@ -1,6 +1,6 @@
 &inputDataFile
  inputData%nsd = 2
- inputData%inputFileDAT = "dat/2ElemCurvedSameMaterialInterfaceMesh",
+ inputData%inputFileDAT = "dat/2ElemPlanarSameMaterialInterfaceMesh",
  inputData%nurbsBoundary = "dat/circleR1",
  inputData%inputFileSource = "source",
  inputData%inputFileMonitor = "monitor",
