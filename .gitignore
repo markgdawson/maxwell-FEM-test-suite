@@ -10,5 +10,6 @@ outFileLog\.[0-9]*
 parMetisData\.*\.txt
 *\.cpuTime
 *\.elemMap
+*\.uMode\.*
 md5s
 initCond
