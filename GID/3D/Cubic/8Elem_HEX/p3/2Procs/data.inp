@@ -7,7 +7,7 @@
  inputData%inputFileMonitor='monitor'
  inputData%inputFileSource='source'
 
- inputData%computeModes = .FALSE.,
+ inputData%computeModes = .TRUE.,
  inputData%modeBeta = 0.0D0,
  inputData%timeStepWriteBuffer = 10000,
 
