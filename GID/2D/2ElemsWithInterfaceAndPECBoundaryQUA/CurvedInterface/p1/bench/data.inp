@@ -9,7 +9,7 @@
  
  inputData%computeModes = .FALSE.,
  inputData%modeBeta = 0.0D0,
- inputData%timeStepWriteBuffer = 500,
+ inputData%storeModeCycle = 100,
  
  inputData%nefem = .FALSE.,
   
