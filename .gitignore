@@ -13,3 +13,4 @@ parMetisData\.*\.txt
 *\.uMode\.*
 md5s
 initCond
+.getInputFileCurrentSelection
