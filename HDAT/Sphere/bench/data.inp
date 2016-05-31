@@ -1,6 +1,6 @@
 &inputDataFile
  inputData%nsd = 3
- inputData%inputFileDAT = "dat/2ElemSpherical",
+ inputData%inputFileDAT = "dat/sphereP2",
  inputData%nurbsBoundary = "dat/circleR1",
  inputData%inputMode = 3,
  inputData%initialCondition = 0,
@@ -19,7 +19,7 @@
 
  inputData%initialTime = 0.0D0,
  inputData%tolSteadyState = 1.0D-6,
- inputData%nOfCyclesMax = 100,
+ inputData%nOfCyclesMax = 10,
  inputData%nOfTimeStepsPerCycle = 0,
  inputData%cttTime = 0.4D0,
  inputData%timeMarching = 1,
@@ -27,7 +27,7 @@
  inputData%useAffineJacobians = .TRUE.,
 
  inputData%snapshotCycle = 0,
- inputData%nOfFramesPerCycle = 100000,
+ inputData%nOfFramesPerCycle = 1,
  inputData%outputAmpPhase = .FALSE.,
 
  inputData%TFSF = .FALSE.,

@@ -1,6 +1,6 @@
 &inputDataFile
  inputData%nsd = 3
- inputData%inputFileDAT = "dat/sphereP2",
+ inputData%inputFileDAT = "dat/2ElemSpherical",
  inputData%nurbsBoundary = "dat/circleR1",
  inputData%inputMode = 3,
  inputData%initialCondition = 0,
