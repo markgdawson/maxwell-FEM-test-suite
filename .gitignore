@@ -12,7 +12,8 @@ parMetisData\.*\.txt
 *\.elemMap
 *\.uMode\.*
 md5s
+.success
 initCond
-.getInputFileCurrentSelection
-*.nefemInfo
-*.nurbs
+\.getInputFileCurrentSelection
+*\.nefemInfo
+*\.nurbs
