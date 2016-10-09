@@ -1,2 +1,2 @@
 cd dat
-rename 's/_p5_/_p3_/g' *
+rename -f 's/_p5_/_p3_/g' *
