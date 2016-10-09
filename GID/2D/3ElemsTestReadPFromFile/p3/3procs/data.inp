@@ -69,4 +69,9 @@
  inputData%pmlZmax = 40D0,
  inputData%pmlDegree = 2.0D0,
  inputData%pmlR = 20,
+
+inputData%maxFreqMonitor = 100,
+inputData%modeStartCycle = 100
+inputData%timingActive = .FALSE.,
+inputData%monitorWriteCycle = 100,
 /
