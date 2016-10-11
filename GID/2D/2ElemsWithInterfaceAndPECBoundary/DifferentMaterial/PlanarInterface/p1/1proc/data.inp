@@ -1,4 +1,5 @@
 &inputDataFile
+ inputData%writeNodeConnectivityFile = .FALSE.,
  inputData%nsd = 2
  inputData%inputFileDAT = "dat/2ElemPlanarDifferentMaterialInterfaceMesh",
  inputData%nurbsBoundary = "dat/circleR1",
