@@ -1,5 +1,4 @@
 &inputDataFile
- inputData%writeNodeConnectivityFile = .FALSE.,
  inputData%nsd = 2
  inputData%inputFileDAT = "dat/4x8",
  inputData%nurbsBoundary = "dat/circleR1",
