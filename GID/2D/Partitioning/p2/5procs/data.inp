@@ -22,7 +22,7 @@
  inputData%tolSteadyState = 1.0D-6,
  inputData%nOfCyclesMax = 10,
  inputData%nOfTimeStepsPerCycle = 0,
- inputData%cttTime = 0.7D0,
+ inputData%cttTime = 0.4D0,
  inputData%timeMarching = 1,
  inputData%storedCurved = .TRUE.,
  inputData%useAffineJacobians = .TRUE.,
